@@ -3,14 +3,12 @@
 class StudioGhibliCli::CLI
   
   def call
-    puts "Welcome to the Studio Ghibli Movie Generator"
-    enter_y_to_start
+    welcome_message
     film_year_list
-    
   end
   
-  def enter_y_to_start
-    puts "Enter Y to start"
+  def welcome_message
+    puts "Welcome to the Studio Ghibli Movie Generator"
   end
   
   def film_year_list
