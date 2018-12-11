@@ -1,6 +1,5 @@
-require "studio_ghibli_cli/version"
+require_relative "studio_ghibli_cli/version"
 
 module StudioGhibliCli
-  class Error < StandardError; end
   # Your code goes here...
 end
