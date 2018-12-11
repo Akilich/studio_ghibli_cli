@@ -7,7 +7,7 @@ class StudioGhibliCli::CLI
     while input != 'exit'
     
     puts "Welcome to the Studio Ghibli Movie Generator!"
-    puts "Generate a random Studio Ghibli film by its producer or Rotten Tomatoes score."
+    puts "You can generate a random Studio Ghibli film by its producer or Rotten Tomatoes score."
     puts "To list all film producers, enter 'list producers'."
     puts "To list all Rotten Tomatoes scores, enter 'list scores'."
     puts "To generate a random film by producer, enter the name of the producer."
