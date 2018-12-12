@@ -1,6 +1,6 @@
-RSpec.describe StudioGhibliCli do
+RSpec.describe StudioGhibliController do
   it "has a version number" do
-    expect(StudioGhibliCli::VERSION).not_to be nil
+    expect(StudioGhibliController::VERSION).not_to be nil
   end
 
   it "does something useful" do

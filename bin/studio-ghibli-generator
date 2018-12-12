@@ -2,4 +2,4 @@
 
 require './lib/studio_ghibli_cli'
 
-StudioGhibliCli::CLI.new.call
+StudioGhibliController.new.call

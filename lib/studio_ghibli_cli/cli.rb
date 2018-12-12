@@ -1,11 +1,10 @@
 #CLI Generator Controller
 
-class StudioGhibliCli::CLI
+class StudioGhibliController
   
   def call
     input = ''
     while input != 'exit'
-    
     puts "Welcome to the Studio Ghibli Movie Generator!"
     puts "You can generate a random Studio Ghibli film by its producer or Rotten Tomatoes score."
     puts "To list all film producers, enter 'list producers'."
